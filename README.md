@@ -1,2 +1,0 @@
-# lekvetzan.github-io
-website
