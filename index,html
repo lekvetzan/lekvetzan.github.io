@@ -1,12 +1,128 @@
+```html
 <!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lek. wet. Zaniewski</title>
+
+  <title>Stanisław Zaniewski | Lekarz weterynarii Kraków</title>
+  <meta
+    name="description"
+    content="Stanisław Zaniewski – lekarz weterynarii w Krakowie. Praktyka weterynaryjna przy ul. Władysława Reymonta 44/3."
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Lek. wet. Zaniewski</h1>
-  <p>Gabinet weterynaryjny</p>
+
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="#">Stanisław Zaniewski</a>
+
+      <div class="nav-links">
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div>
+        <span class="eyebrow">Lekarz weterynarii · Kraków</span>
+
+        <h1>Stanisław<br>Zaniewski</h1>
+
+        <p>
+          Indywidualna praktyka weterynaryjna w Krakowie.
+          Profesjonalna i spokojna opieka nad Twoim zwierzęciem.
+        </p>
+
+        <div class="actions">
+          <a
+            class="button button-primary"
+            href="mailto:s.zaniewski2000@wp.pl"
+          >
+            Napisz e-mail
+          </a>
+
+          <a
+            class="button button-secondary"
+            href="https://www.google.com/maps/search/?api=1&query=Władysława+Reymonta+44+Kraków"
+            target="_blank"
+            rel="noopener"
+          >
+            Otwórz mapę
+          </a>
+        </div>
+      </div>
+
+      <div class="card hero-card">
+        <img
+          src="photos/face.jpg"
+          alt="Stanisław Zaniewski – lekarz weterynarii"
+          style="
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            object-fit: cover;
+            border-radius: 14px;
+            display: block;
+            margin-bottom: 22px;
+          "
+        >
+
+        <h2>Praktyka weterynaryjna</h2>
+
+        <p>
+          Władysława Reymonta 44 lok. 3<br>
+          30-073 Kraków
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <div class="container">
+
+      <div class="section-heading">
+        <span class="eyebrow">Kontakt</span>
+        <h2>Umów wizytę lub napisz</h2>
+      </div>
+
+      <div class="card">
+
+        <div class="contact-item">
+          <span class="contact-label">E-mail</span>
+          <a href="mailto:s.zaniewski2000@wp.pl">
+            s.zaniewski2000@wp.pl
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-label">Adres</span>
+          Władysława Reymonta 44 lok. 3<br>
+          30-073 Kraków
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 Stanisław Zaniewski
+  </div>
+</footer>
+
 </body>
 </html>
+```
